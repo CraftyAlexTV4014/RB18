@@ -1,0 +1,446 @@
+@name PRLX GP20C-ECo
+@inputs Base:entity
+@outputs
+@persist A
+@trigger
+
+E=Base
+local P2M = p2mCreate(64,E:toWorld(vec(0,0,0)),E:toWorld(ang(0,90,0)))
+if((first() | dupefinished())){
+
+#P2M:p2mPushModel(1,"",array(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20),vec(0,0,0),ang(0,0,0),vec(1,1,1),0,0,(0),array(vec(0,0,0),vec(0,0,0),vec(0,0,0),vec(0,0,0),vec(0,0,0),vec(0,0,0)))
+
+P2M:p2mPushModel(3,"models/gsgtrainprops/parts/headlights/headlight_base_twinbeam_plate.mdl",array(),vec(0,-323,110),ang(-90,90,0),vec(1,1,1),0,0,(0),array(vec(0,0,0),vec(0,0,0),vec(0,0,0),vec(0,0,0),vec(0,0,0),vec(0,0,0)))
+
+P2M:p2mPushModel(3,"models/nathan/k_series/k3.mdl",array(),vec(0,220,127.9),ang(0,180,0),vec(1,1,1),0,0,(3),array(vec(0,0,0),vec(0,0,0),vec(0,0,0),vec(0,0,0),vec(0,0,0),vec(0,0,0)))
+
+P2M:p2mPushModel(3,"models/sprops/cylinders/size_3/cylinder_6x6.mdl",array(),vec(0,220,125),ang(0,180,0),vec(0.6),0,0,(3),array(vec(0,0,0),vec(0,0,0),vec(0,0,0),vec(0,0,0),vec(0,0,0),vec(0,0,0)))
+
+
+
+P2M:p2mPushModel(3,"models/fox/bnsf_geptc.mdl",array(2,3,4),vec(0,170,124.9),ang(0,90,0),vec(1,1,1),0,0,(0),array(vec(0,0,0),vec(0,0,0),vec(0,0,0),vec(0,0,0),vec(0,0,0),vec(0,0,0)))
+
+P2M:p2mPushModel(4,"models/fox/bnsf_geptc.mdl",array(1),vec(0,170,124.9),ang(0,90,0),vec(1,1,1),0,0,(0),array(vec(0,0,0),vec(0,0,0),vec(0,0,0),vec(0,0,0),vec(0,0,0),vec(0,0,0)))
+
+P2M:p2mPushModel(3,"models/lazpack/detail/sunshade.mdl",array(),vec(60.5,170,103),ang(0,-90,0),vec(1,1,1),0,0,(0),array(vec(0,0,0),vec(0,0,0),vec(0,0,0),vec(0,0,0),vec(0,0,0),vec(0,0,0)))
+
+P2M:p2mPushModel(3,"models/lazpack/detail/sunshade.mdl",array(),vec(-60.5,170,103),ang(0,90,0),vec(1,1,1),0,0,(0),array(vec(0,0,0),vec(0,0,0),vec(0,0,0),vec(0,0,0),vec(0,0,0),vec(0,0,0)))
+
+
+
+P2M:p2mPushModel(1,"models/gsgtrainprops/parts/snowplows/plow_large.mdl",array(),vec(0,337,-27),ang(0,180,0),vec(1,1,1),0,0,(0),array(vec(0,0,0),vec(0,0,0),vec(0,0,0),vec(0,0,0),vec(0,0,0),vec(0,0,0)))
+
+
+P2M:p2mPushModel(1,"models/anytrains/props/detail/cutbar.mdl",array(1,5),vec(0,327.65,-4),ang(0,0,0),vec(1,1,1),0,0,(14),array(vec(0,0,0),vec(0,0,0),vec(0,0,0),vec(0,0,0),vec(0,0,0),vec(0,0,0)))
+
+P2M:p2mPushModel(2,"models/anytrains/props/detail/cutbar.mdl",array(1,2,3,4),vec(0,327.65,-4),ang(0,0,0),vec(1,1,1),0,0,(14),array(vec(0,0,0),vec(0,0,0),vec(0,0,0),vec(0,0,0),vec(0,0,0),vec(0,0,0)))
+
+P2M:p2mPushModel(1,"models/titus's_propper_model_pack_2.4/propper/mu_plugs/mu_socket_27pin.mdl",array(),vec(18,327.5,3),ang(0,0,0),vec(1,1,1),0,0,(0),array(vec(0,0,0),vec(0,0,0),vec(0,0,0),vec(0,0,0),vec(0,0,0),vec(0,0,0)))
+
+P2M:p2mPushModel(1,"models/titus's_propper_model_pack_2.4/propper/mu_plugs/mu_socket_27pin.mdl",array(),vec(-25,327.5,3),ang(0,0,0),vec(1,1,1),0,0,(0),array(vec(0,0,0),vec(0,0,0),vec(0,0,0),vec(0,0,0),vec(0,0,0),vec(0,0,0)))
+
+
+P2M:p2mPushModel(1,"models/ext/parts/ditchlight_mount.mdl",array(),vec(-25,339.5,13),ang(0,0,0),vec(1,1,1),0,0,(0),array(vec(0,0,0),vec(0,0,0),vec(0,0,0),vec(0,0,0),vec(0,0,0),vec(0,0,0)))
+
+P2M:p2mPushModel(1,"models/ext/parts/ditchlight_mount.mdl",array(),vec(25,339.5,13),ang(0,0,0),vec(1,1,1),0,0,(0),array(vec(0,0,0),vec(0,0,0),vec(0,0,0),vec(0,0,0),vec(0,0,0),vec(0,0,0)))
+
+
+
+
+P2M:p2mPushModel(1,"models/fox/prlx_gp20c_strikeplate.mdl",array(),vec(0,-326,-35.5),ang(0,0,0),vec(1,1,1),0,0,(0),array(vec(0,0,0),vec(0,0,0),vec(0,0,0),vec(0,0,0),vec(0,0,0),vec(0,0,0)))
+
+
+P2M:p2mPushModel(1,"models/anytrains/props/detail/cutbar.mdl",array(1,5),vec(0,-326.65,-4),ang(0,180,0),vec(1,1,1),0,0,(14),array(vec(0,0,0),vec(0,0,0),vec(0,0,0),vec(0,0,0),vec(0,0,0),vec(0,0,0)))
+
+P2M:p2mPushModel(2,"models/anytrains/props/detail/cutbar.mdl",array(1,2,3,4),vec(0,-326.65,-4),ang(0,180,0),vec(1,1,1),0,0,(14),array(vec(0,0,0),vec(0,0,0),vec(0,0,0),vec(0,0,0),vec(0,0,0),vec(0,0,0)))
+
+P2M:p2mPushModel(1,"models/titus's_propper_model_pack_2.4/propper/mu_plugs/mu_socket_27pin.mdl",array(),vec(-18,-326.5,3),ang(0,180,0),vec(1,1,1),0,0,(0),array(vec(0,0,0),vec(0,0,0),vec(0,0,0),vec(0,0,0),vec(0,0,0),vec(0,0,0)))
+
+P2M:p2mPushModel(1,"models/titus's_propper_model_pack_2.4/propper/mu_plugs/mu_socket_27pin.mdl",array(),vec(25,-326.5,3),ang(0,180,0),vec(1,1,1),0,0,(0),array(vec(0,0,0),vec(0,0,0),vec(0,0,0),vec(0,0,0),vec(0,0,0),vec(0,0,0)))
+
+
+P2M:p2mPushModel(1,"models/ext/parts/ditchlight_mount.mdl",array(),vec(-25,-338.5,13),ang(0,180,0),vec(1,1,1),0,0,(0),array(vec(0,0,0),vec(0,0,0),vec(0,0,0),vec(0,0,0),vec(0,0,0),vec(0,0,0)))
+
+P2M:p2mPushModel(1,"models/ext/parts/ditchlight_mount.mdl",array(),vec(25,-338.5,13),ang(0,180,0),vec(1,1,1),0,0,(0),array(vec(0,0,0),vec(0,0,0),vec(0,0,0),vec(0,0,0),vec(0,0,0),vec(0,0,0)))
+
+
+
+
+
+P2M:p2mPushModel(3,"models/billiam/grabbage/grabirons/grab_17.mdl",array(),vec(15.989999771118,309,50),ang(0,149,90),vec(1,1,1),0,0,(0),array(vec(0,0,0),vec(0,0,0),vec(0,0,0),vec(0,0,0),vec(0,0,0),vec(0,0,0)))
+P2M:p2mPushModel(3,"models/billiam/grabbage/grabirons/grab_17.mdl",array(),vec(-15.989999771118,309,50),ang(0,-149,90),vec(1,1,1),0,0,(0),array(vec(0,0,0),vec(0,0,0),vec(0,0,0),vec(0,0,0),vec(0,0,0),vec(0,0,0)))
+P2M:p2mPushModel(3,"models/billiam/grabbage/grabirons/grab_17.mdl",array(),vec(33.5,235,66),ang(0,90,90),vec(1,1,1),0,0,(0),array(vec(0,0,0),vec(0,0,0),vec(0,0,0),vec(0,0,0),vec(0,0,0),vec(0,0,0)))
+P2M:p2mPushModel(3,"models/billiam/grabbage/grabirons/grab_17.mdl",array(),vec(25.5,235,81.25),ang(0.8,90,0),vec(1,1,1),0,0,(0),array(vec(0,0,0),vec(0,0,0),vec(0,0,0),vec(0,0,0),vec(0,0,0),vec(0,0,0)))
+
+
+P2M:p2mPushModel(3,"models/billiam/grabbage/grabirons/grab_17.mdl",array(),vec(18.5,-314,52),ang(0,23,90),vec(1,1,1),0,0,(0),array(vec(0,0,0),vec(0,0,0),vec(0,0,0),vec(0,0,0),vec(0,0,0),vec(0,0,0)))
+
+
+
+P2M:p2mPushModel(3,"models/billiam/grabbage/grabirons/grab_17.mdl",array(),vec(-18.5,-314,35),ang(0,-23,90),vec(1,1,1),0,0,(0),array(vec(0,0,0),vec(0,0,0),vec(0,0,0),vec(0,0,0),vec(0,0,0),vec(0,0,0)))
+P2M:p2mPushModel(3,"models/billiam/grabbage/grabirons/grab_17.mdl",array(),vec(-18.5,-314,52),ang(0,-23,90),vec(1,1,1),0,0,(0),array(vec(0,0,0),vec(0,0,0),vec(0,0,0),vec(0,0,0),vec(0,0,0),vec(0,0,0)))
+P2M:p2mPushModel(3,"models/billiam/grabbage/grabirons/grab_17.mdl",array(),vec(-18.5,-314,69),ang(0,-23,90),vec(1,1,1),0,0,(0),array(vec(0,0,0),vec(0,0,0),vec(0,0,0),vec(0,0,0),vec(0,0,0),vec(0,0,0)))
+P2M:p2mPushModel(3,"models/billiam/grabbage/grabirons/grab_17.mdl",array(),vec(-18.5,-314,86),ang(0,-23,90),vec(1,1,1),0,0,(0),array(vec(0,0,0),vec(0,0,0),vec(0,0,0),vec(0,0,0),vec(0,0,0),vec(0,0,0)))
+P2M:p2mPushModel(3,"models/billiam/grabbage/grabirons/grab_17.mdl",array(),vec(-18.5,-314,52),ang(0,-23,90),vec(1,1,1),0,0,(0),array(vec(0,0,0),vec(0,0,0),vec(0,0,0),vec(0,0,0),vec(0,0,0),vec(0,0,0)))
+P2M:p2mPushModel(3,"models/billiam/grabbage/grabirons/grab_17.mdl",array(),vec(-18.5,-314,103),ang(0,-23,90),vec(1,1,1),0,0,(0),array(vec(0,0,0),vec(0,0,0),vec(0,0,0),vec(0,0,0),vec(0,0,0),vec(0,0,0)))
+P2M:p2mPushModel(3,"models/billiam/grabbage/grabirons/grab_17.mdl",array(),vec(-18.5,-314,120),ang(0,-23,90),vec(1,1,1),0,0,(0),array(vec(0,0,0),vec(0,0,0),vec(0,0,0),vec(0,0,0),vec(0,0,0),vec(0,0,0)))
+
+
+
+P2M:p2mPushModel(3,"models/floofy/trainparts/misc/handbrake_stamped.mdl",array(),vec(30,-278,54),ang(0,90,90),vec(1,1,1),0,0,(0),array(vec(0,0,0),vec(0,0,0),vec(0,0,0),vec(0,0,0),vec(0,0,0),vec(0,0,0)))
+
+
+
+
+
+
+#-----Shit 
+Number=randint(1021,1050):toString()
+Num=Number:explode("")
+P2M:p2mBuild()
+P2M:parentTo(Base)
+Base:setAlpha(0) 
+
+P2M:p2mSetMaterial(1,"models/proppertextures/acrylic_grey")
+P2M:p2mSetColor(1,vec(255))
+P2M:p2mSetMaterial(2,"models/proppertextures/acrylic_white")
+P2M:p2mSetColor(2,vec(255))
+P2M:p2mSetMaterial(3,"WTP/Plastic_1")
+P2M:p2mSetColor(3,vec(132,50,50))
+P2M:p2mSetMaterial(4,"WTP/Plastic_1")
+P2M:p2mSetColor(4,vec(46))
+
+
+
+Base:setAlpha(255)  
+
+
+
+
+    A++
+    holoCreate(A)
+    holoModel(A, "models/fox/headlight_led.mdl") #Model
+    holoPos(A, Base:toWorld(vec(323,0,110))) #Position
+    holoAng(A, Base:toWorld(ang(0,0,90))) #Angle
+    holoScale(A, vec(1)) #Scale
+    holoColor(A, vec(132,50,50)) #Color
+    holoParent(A, Base) 
+    holoClipEnabled(A,1,1) #Clip
+    holoClip(A,1,vec(0,0,0),vec(0,0,0),0) #Clip Position/Angle 
+    holoEntity(A):setSubMaterial(1,"wTp/Plastic_1") #Material
+    holoBodygroup(A,1,0)
+
+
+
+    A++
+    holoCreate(A)
+    holoModel(A, "models/anytrains/props/detail/wiper_single.mdl") #Model
+    holoPos(A, Base:toWorld(vec(-125.88,48,105))) #Position
+    holoAng(A, Base:toWorld(ang(0,180,0))) #Angle
+    holoScale(A, vec(1)) #Scale
+    holoColor(A, vec(255)) #Color
+    holoParent(A, Base) 
+    holoClipEnabled(A,1,1) #Clip
+    holoClip(A,1,vec(0,0,0),vec(0,0,0),0) #Clip Position/Angle 
+    holoEntity(A):setSubMaterial(1,"") #Material
+    holoBodygroup(A,1,2)
+    holoBodygroup(A,2,0)
+    holoBodygroup(A,3,0)
+    holoBodygroup(A,4,2)
+    holoBodygroup(A,5,2)
+    A++
+    holoCreate(A)
+    holoModel(A, "models/anytrains/props/detail/wiper_single.mdl") #Model
+    holoPos(A, Base:toWorld(vec(-126.8,-48,105))) #Position
+    holoAng(A, Base:toWorld(ang(0,180,0))) #Angle
+    holoScale(A, vec(1)) #Scale
+    holoColor(A, vec(255)) #Color
+    holoParent(A, Base) 
+    holoClipEnabled(A,1,1) #Clip
+    holoClip(A,1,vec(0,0,0),vec(0,0,0),0) #Clip Position/Angle 
+    holoEntity(A):setSubMaterial(1,"") #Material
+    holoBodygroup(A,1,2)
+    holoBodygroup(A,2,0)
+    holoBodygroup(A,3,0)
+    holoBodygroup(A,4,2)
+    holoBodygroup(A,5,2)
+
+    A++
+    holoCreate(A)
+    holoModel(A, "models/anytrains/props/detail/wiper_single.mdl") #Model
+    holoPos(A, Base:toWorld(vec(-214.45,-48,105))) #Position
+    holoAng(A, Base:toWorld(ang(0,0,0))) #Angle
+    holoScale(A, vec(1)) #Scale
+    holoColor(A, vec(255)) #Color
+    holoParent(A, Base) 
+    holoClipEnabled(A,1,1) #Clip
+    holoClip(A,1,vec(0,0,0),vec(0,0,0),0) #Clip Position/Angle 
+    holoEntity(A):setSubMaterial(1,"") #Material
+    holoBodygroup(A,1,2)
+    holoBodygroup(A,2,0)
+    holoBodygroup(A,3,0)
+    holoBodygroup(A,4,2)
+    holoBodygroup(A,5,2)
+
+    A++
+    holoCreate(A)
+    holoModel(A, "models/anytrains/props/detail/wiper_single.mdl") #Model
+    holoPos(A, Base:toWorld(vec(-213.5,48,105))) #Position
+    holoAng(A, Base:toWorld(ang(0,0,0))) #Angle
+    holoScale(A, vec(1)) #Scale
+    holoColor(A, vec(255)) #Color
+    holoParent(A, Base) 
+    holoClipEnabled(A,1,1) #Clip
+    holoClip(A,1,vec(0,0,0),vec(0,0,0),0) #Clip Position/Angle 
+    holoEntity(A):setSubMaterial(1,"") #Material
+    holoBodygroup(A,1,2)
+    holoBodygroup(A,2,0)
+    holoBodygroup(A,3,0)
+    holoBodygroup(A,4,2)
+    holoBodygroup(A,5,2)
+
+    A++
+    holoCreate(A)
+    holoModel(A, "models/anytrains/props/detail/wiper_double.mdl") #Model
+    holoPos(A, Base:toWorld(vec(-212.5,0,102))) #Position
+    holoAng(A, Base:toWorld(ang(0,0,0))) #Angle
+    holoScale(A, vec(1)) #Scale
+    holoColor(A, vec(255)) #Color
+    holoParent(A, Base) 
+    holoClipEnabled(A,1,1) #Clip
+    holoClip(A,1,vec(0,0,0),vec(0,0,0),0) #Clip Position/Angle 
+    holoEntity(A):setSubMaterial(1,"") #Material
+    holoBodygroup(A,1,2)
+    holoBodygroup(A,2,0)
+    holoBodygroup(A,3,0)
+    holoBodygroup(A,4,2)
+    holoBodygroup(A,5,2)
+
+    A++
+    holoCreate(A)
+    holoModel(A, "models/magtrainslocos/numplates/numplate_mcab_3d.mdl") #Model
+    holoPos(A, Base:toWorld(vec(-167,-61,63))) #Position
+    holoAng(A, Base:toWorld(ang(90,-90,0))) #Angle
+    holoScale(A, vec(1.95)) #Scale
+    holoColor(A, vec(255)) #Color
+    holoParent(A, Base) 
+    holoClipEnabled(A,1,1) #Clip
+    holoClip(A,1,vec(0,0,0),vec(0,0,0),0) #Clip Position/Angle 
+    holoEntity(A):setSubMaterial(1,"cubics_pack/numbers/pt_root/numplate_dark") #Material
+    holoBodygroup(A,1,2)
+    holoBodygroup(A,2,0)
+    holoBodygroup(A,3,0)
+    holoBodygroup(A,4,2)
+    holoBodygroup(A,5,2)
+
+
+    A++
+    holoCreate(A)
+    holoModel(A, "models/magtrainslocos/numplates/numplate_mcab_3d.mdl") #Model
+    holoPos(A, Base:toWorld(vec(-167,61,63))) #Position
+    holoAng(A, Base:toWorld(ang(90,90,0))) #Angle
+    holoScale(A, vec(1.95)) #Scale
+    holoColor(A, vec(255)) #Color
+    holoParent(A, Base) 
+    holoClipEnabled(A,1,1) #Clip
+    holoClip(A,1,vec(0,0,0),vec(0,0,0),0) #Clip Position/Angle 
+    holoEntity(A):setSubMaterial(1,"cubics_pack/numbers/pt_root/numplate_dark") #Material
+    holoBodygroup(A,1,2)
+    holoBodygroup(A,2,0)
+    holoBodygroup(A,3,0)
+    holoBodygroup(A,4,2)
+    holoBodygroup(A,5,2)
+
+
+
+    A++
+    holoCreate(A)
+    holoModel(A, "models/magtrainslocos/numplates/numplate_mcab_3d.mdl") #Model
+    holoPos(A, Base:toWorld(vec(-221.9,23,111))) #Position
+    holoAng(A, Base:toWorld(ang(90,153.9,0))) #Angle
+    holoScale(A, vec(1.35)) #Scale
+    holoColor(A, vec(36)) #Color
+    holoParent(A, Base) 
+    holoClipEnabled(A,1,1) #Clip
+    holoClip(A,1,vec(0,0,0),vec(0,0,0),0) #Clip Position/Angle 
+    holoEntity(A):setSubMaterial(1,"cubics_pack/numbers/pt_root/numplate_dark") #Material
+    holoBodygroup(A,1,2)
+    holoBodygroup(A,2,0)
+    holoBodygroup(A,3,0)
+    holoBodygroup(A,4,1)
+    holoBodygroup(A,5,1)
+
+
+    A++
+    holoCreate(A)
+    holoModel(A, "models/magtrainslocos/numplates/numplate_mcab_3d.mdl") #Model
+    holoPos(A, Base:toWorld(vec(-221.9,-23,111))) #Position
+    holoAng(A, Base:toWorld(ang(90,-153.9,0))) #Angle
+    holoScale(A, vec(1.35)) #Scale
+    holoColor(A, vec(36)) #Color
+    holoParent(A, Base) 
+    holoClipEnabled(A,1,1) #Clip
+    holoClip(A,1,vec(0,0,0),vec(0,0,0),0) #Clip Position/Angle 
+    holoEntity(A):setSubMaterial(1,"cubics_pack/numbers/pt_root/numplate_dark") #Material
+    holoBodygroup(A,1,2)
+    holoBodygroup(A,2,0)
+    holoBodygroup(A,3,0)
+    holoBodygroup(A,4,1)
+    holoBodygroup(A,5,1)
+
+
+    A++
+    holoCreate(A)
+    holoModel(A, "models/fox/headlight_led.mdl") #Model
+    holoPos(A, Base:toWorld(vec(-313.5,0,61))) #Position
+    holoAng(A, Base:toWorld(ang(0,180,0))) #Angle
+    holoScale(A, vec(1)) #Scale
+    holoColor(A, vec(132,50,50)) #Color
+    holoParent(A, Base) 
+    holoClipEnabled(A,1,1) #Clip
+    holoClip(A,1,vec(0,0,0),vec(0,0,0),0) #Clip Position/Angle 
+    holoEntity(A):setSubMaterial(1,"WTP/Plastic_1") #Material
+    holoBodygroup(A,1,1)
+
+
+    A++
+    holoCreate(A)
+    holoModel(A, "models/lazpack/detail/brakehose_offset.mdl") #Model
+    holoPos(A, Base:toWorld(vec(-332.73,-14,-14))) #Position
+    holoAng(A, Base:toWorld(ang(0,180,0))) #Angle
+    holoScale(A, vec(1)) #Scale
+    holoColor(A, vec(255)) #Color
+    holoParent(A, Base) 
+    holoClipEnabled(A,1,1) #Clip
+    holoClip(A,1,vec(0,0,0),vec(0,0,0),0) #Clip Position/Angle 
+    holoEntity(A):setSubMaterial(2,"models/proppertextures/acrylic_grey") #Material
+    holoEntity(A):setSubMaterial(5,"models/proppertextures/acrylic_grey") #Material
+    holoBodygroup(A,1,1)
+    holoBodygroup(A,2,1)
+
+
+    A++
+    holoCreate(A)
+    holoModel(A, "models/lazpack/detail/mu_3hose_left.mdl") #Model
+    holoPos(A, Base:toWorld(vec(-330.25,-33,-9))) #Position
+    holoAng(A, Base:toWorld(ang(0,180,0))) #Angle
+    holoScale(A, vec(1)) #Scale
+    holoColor(A, vec(255)) #Color
+    holoParent(A, Base) 
+    holoClipEnabled(A,1,1) #Clip
+    holoClip(A,1,vec(0,0,0),vec(0,0,0),0) #Clip Position/Angle 
+    holoEntity(A):setSubMaterial(1,"models/proppertextures/acrylic_grey") #Material
+    holoEntity(A):setSubMaterial(4,"models/proppertextures/acrylic_grey") #Material
+    holoBodygroup(A,1,1)
+    holoBodygroup(A,2,1)
+
+    A++
+    holoCreate(A)
+    holoModel(A, "models/lazpack/detail/mu_3hose_right.mdl") #Model
+    holoPos(A, Base:toWorld(vec(-330.25,33,-9))) #Position
+    holoAng(A, Base:toWorld(ang(0,180,0))) #Angle
+    holoScale(A, vec(1)) #Scale
+    holoColor(A, vec(255)) #Color
+    holoParent(A, Base) 
+    holoClipEnabled(A,1,1) #Clip
+    holoClip(A,1,vec(0,0,0),vec(0,0,0),0) #Clip Position/Angle 
+    holoEntity(A):setSubMaterial(2,"models/proppertextures/acrylic_grey") #Material
+    holoEntity(A):setSubMaterial(4,"models/proppertextures/acrylic_grey") #Material
+    holoBodygroup(A,1,1)
+    holoBodygroup(A,2,1)
+
+    A++
+    holoCreate(A)
+    holoModel(A, "models/fox/ditchlight_led.mdl") #Model
+    holoPos(A, Base:toWorld(vec(-340.25,25,18))) #Position
+    holoAng(A, Base:toWorld(ang(0,180,0))) #Angle
+    holoScale(A, vec(1)) #Scale
+    holoColor(A, vec(255)) #Color
+    holoParent(A, Base) 
+    holoClipEnabled(A,1,1) #Clip
+    holoClip(A,1,vec(0,0,0),vec(0,0,0),0) #Clip Position/Angle 
+    holoEntity(A):setSubMaterial(1,"models/proppertextures/acrylic_grey") #Material
+    holoBodygroup(A,1,1)
+    holoBodygroup(A,2,1)
+
+    A++
+    holoCreate(A)
+    holoModel(A, "models/fox/ditchlight_led.mdl") #Model
+    holoPos(A, Base:toWorld(vec(-340.25,-25,18))) #Position
+    holoAng(A, Base:toWorld(ang(0,180,0))) #Angle
+    holoScale(A, vec(1)) #Scale
+    holoColor(A, vec(255)) #Color
+    holoParent(A, Base) 
+    holoClipEnabled(A,1,1) #Clip
+    holoClip(A,1,vec(0,0,0),vec(0,0,0),0) #Clip Position/Angle 
+    holoEntity(A):setSubMaterial(1,"models/proppertextures/acrylic_grey") #Material
+    holoBodygroup(A,1,1)
+    holoBodygroup(A,2,1)
+
+
+
+
+
+    A++
+    holoCreate(A)
+    holoModel(A, "models/lazpack/detail/mu_3hose_left.mdl") #Model
+    holoPos(A, Base:toWorld(vec(329.25,33,-9))) #Position
+    holoAng(A, Base:toWorld(ang(0,0,0))) #Angle
+    holoScale(A, vec(1)) #Scale
+    holoColor(A, vec(255)) #Color
+    holoParent(A, Base) 
+    holoClipEnabled(A,1,1) #Clip
+    holoClip(A,1,vec(0,0,0),vec(0,0,0),0) #Clip Position/Angle 
+    holoEntity(A):setSubMaterial(1,"models/proppertextures/acrylic_grey") #Material
+    holoEntity(A):setSubMaterial(4,"models/proppertextures/acrylic_grey") #Material
+    holoBodygroup(A,1,1)
+    holoBodygroup(A,2,1)
+
+    A++
+    holoCreate(A)
+    holoModel(A, "models/lazpack/detail/mu_3hose_right.mdl") #Model
+    holoPos(A, Base:toWorld(vec(329.25,-33,-9))) #Position
+    holoAng(A, Base:toWorld(ang(0,0,0))) #Angle
+    holoScale(A, vec(1)) #Scale
+    holoColor(A, vec(255)) #Color
+    holoParent(A, Base) 
+    holoClipEnabled(A,1,1) #Clip
+    holoClip(A,1,vec(0,0,0),vec(0,0,0),0) #Clip Position/Angle 
+    holoEntity(A):setSubMaterial(2,"models/proppertextures/acrylic_grey") #Material
+    holoEntity(A):setSubMaterial(4,"models/proppertextures/acrylic_grey") #Material
+    holoBodygroup(A,1,1)
+    holoBodygroup(A,2,1)
+
+
+    A++
+    holoCreate(A)
+    holoModel(A, "models/fox/ditchlight_led.mdl") #Model
+    holoPos(A, Base:toWorld(vec(339.25,25,18))) #Position
+    holoAng(A, Base:toWorld(ang(0,0,0))) #Angle
+    holoScale(A, vec(1)) #Scale
+    holoColor(A, vec(255)) #Color
+    holoParent(A, Base) 
+    holoClipEnabled(A,1,1) #Clip
+    holoClip(A,1,vec(0,0,0),vec(0,0,0),0) #Clip Position/Angle 
+    holoEntity(A):setSubMaterial(1,"models/proppertextures/acrylic_grey") #Material
+    holoBodygroup(A,1,1)
+    holoBodygroup(A,2,1)
+
+    A++
+    holoCreate(A)
+    holoModel(A, "models/fox/ditchlight_led.mdl") #Model
+    holoPos(A, Base:toWorld(vec(339.25,-25,18))) #Position
+    holoAng(A, Base:toWorld(ang(0,0,0))) #Angle
+    holoScale(A, vec(1)) #Scale
+    holoColor(A, vec(255)) #Color
+    holoParent(A, Base) 
+    holoClipEnabled(A,1,1) #Clip
+    holoClip(A,1,vec(0,0,0),vec(0,0,0),0) #Clip Position/Angle 
+    holoEntity(A):setSubMaterial(1,"models/proppertextures/acrylic_grey") #Material
+    holoBodygroup(A,1,1)
+    holoBodygroup(A,2,1)
+
+
+#prop2mesh_debug_bodygroups (submaterials hnggg)
+#array(1,2,3,4)
+}
