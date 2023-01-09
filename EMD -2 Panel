@@ -1,0 +1,243 @@
+@name EMD -2 Panel
+@inputs E1:entity E2:entity E3:entity
+@outputs [Color1 Color2 Color3]:vector
+@persist A
+@trigger 
+if(first() | dupefinished()){
+
+Scale = 0
+Color1 = vec(109)
+Color2 = vec(109,1,1)
+Color3 = vec(10,60,25)
+
+
+    A++
+    holoCreate(A)
+    holoModel(A, "models/monkcabdetailpack/buttons/sliderswitch.mdl") #Model
+    holoPos(A, E1:toWorld(vec(-169,24,122))) #Position
+    holoAng(A, E1:toWorld(ang(90,180,0))) #Angle
+    holoScale(A, vec(1,1,1)) #Scale
+    holoColor(A, vec(255)) #Color
+    holoParent(A, E1) 
+    holoClipEnabled(A,1,1) #Clip
+    holoClip(A,1,vec(0,0,0),vec(0,0,0),0) #Clip Position/Angle 
+    holoEntity(A):setSubMaterial(1,"") #Material
+    holoBodygroup(A,1,0)
+
+
+    A++
+    holoCreate(A)
+    holoModel(A, "models/monkcabdetailpack/buttons/sliderswitch.mdl") #Model
+    holoPos(A, E1:toWorld(vec(-169,22.5,122))) #Position
+    holoAng(A, E1:toWorld(ang(90,180,0))) #Angle
+    holoScale(A, vec(1,1,1)) #Scale
+    holoColor(A, vec(255)) #Color
+    holoParent(A, E1) 
+    holoClipEnabled(A,1,1) #Clip
+    holoClip(A,1,vec(0,0,0),vec(0,0,0),0) #Clip Position/Angle 
+    holoEntity(A):setSubMaterial(1,"") #Material
+    holoBodygroup(A,1,0)
+
+
+    A++
+    holoCreate(A)
+    holoModel(A, "models/monkcabdetailpack/buttons/sliderswitch.mdl") #Model
+    holoPos(A, E1:toWorld(vec(-169,21,122))) #Position
+    holoAng(A, E1:toWorld(ang(90,180,0))) #Angle
+    holoScale(A, vec(1,1,1)) #Scale
+    holoColor(A, vec(255)) #Color
+    holoParent(A, E1) 
+    holoClipEnabled(A,1,1) #Clip
+    holoClip(A,1,vec(0,0,0),vec(0,0,0),0) #Clip Position/Angle 
+    holoEntity(A):setSubMaterial(1,"") #Material
+    holoBodygroup(A,1,0)
+
+    A++
+    holoCreate(A)
+    holoModel(A, "models/monkcabdetailpack/buttons/sliderswitch.mdl") #Model
+    holoPos(A, E1:toWorld(vec(-169,19.5,122))) #Position
+    holoAng(A, E1:toWorld(ang(90,180,0))) #Angle
+    holoScale(A, vec(1,1,1)) #Scale
+    holoColor(A, vec(255)) #Color
+    holoParent(A, E1) 
+    holoClipEnabled(A,1,1) #Clip
+    holoClip(A,1,vec(0,0,0),vec(0,0,0),0) #Clip Position/Angle 
+    holoEntity(A):setSubMaterial(1,"") #Material
+    holoBodygroup(A,1,0)
+
+    A++
+    holoCreate(A)
+    holoModel(A, "models/monkcabdetailpack/buttons/sliderswitch.mdl") #Model
+    holoPos(A, E1:toWorld(vec(-169,18,122))) #Position
+    holoAng(A, E1:toWorld(ang(90,180,0))) #Angle
+    holoScale(A, vec(1,1,1)) #Scale
+    holoColor(A, vec(255)) #Color
+    holoParent(A, E1) 
+    holoClipEnabled(A,1,1) #Clip
+    holoClip(A,1,vec(0,0,0),vec(0,0,0),0) #Clip Position/Angle 
+    holoEntity(A):setSubMaterial(1,"") #Material
+    holoBodygroup(A,1,0)
+
+    A++
+    holoCreate(A)
+    holoModel(A, "models/monkcabdetailpack/buttons/sliderswitch.mdl") #Model
+    holoPos(A, E1:toWorld(vec(-169,16.5,122))) #Position
+    holoAng(A, E1:toWorld(ang(90,180,0))) #Angle
+    holoScale(A, vec(1,1,1)) #Scale
+    holoColor(A, vec(255)) #Color
+    holoParent(A, E1) 
+    holoClipEnabled(A,1,1) #Clip
+    holoClip(A,1,vec(0,0,0),vec(0,0,0),0) #Clip Position/Angle 
+    holoEntity(A):setSubMaterial(1,"") #Material
+    holoBodygroup(A,1,0)
+
+    A++
+    holoCreate(A)
+    holoModel(A, "models/magtrainslocos/rotaryswitches/headlight_emd.mdl") #Model
+    holoPos(A, E1:toWorld(vec(-168.75,9.5,125))) #Position
+    holoAng(A, E1:toWorld(ang(90,180,0))) #Angle
+    holoScale(A, vec(1,1,1)) #Scale
+    holoColor(A, vec(255)) #Color
+    holoParent(A, E1) 
+    holoClipEnabled(A,1,1) #Clip
+    holoClip(A,1,vec(0,0,0),vec(0,0,0),0) #Clip Position/Angle 
+    holoEntity(A):setSubMaterial(1,"") #Material
+    holoBodygroup(A,2,1)
+
+    A++
+    holoCreate(A)
+    holoModel(A, "models/magtrainslocos/rotaryswitches/headlight_emd.mdl") #Model
+    holoPos(A, E1:toWorld(vec(-168.75,9.5,120))) #Position
+    holoAng(A, E1:toWorld(ang(90,180,0))) #Angle
+    holoScale(A, vec(1,1,1)) #Scale
+    holoColor(A, vec(255)) #Color
+    holoParent(A, E1) 
+    holoClipEnabled(A,1,1) #Clip
+    holoClip(A,1,vec(0,0,0),vec(0,0,0),0) #Clip Position/Angle 
+    holoEntity(A):setSubMaterial(1,"") #Material
+    holoBodygroup(A,2,1)
+
+    A++
+    holoCreate(A)
+    holoModel(A, "plane") #Model
+    holoPos(A, E1:toWorld(vec(-169.25,29.5,122))) #Position
+    holoAng(A, E1:toWorld(ang(90,180,0))) #Angle
+    holoScale(A, vec(0.4,0.5,1)) #Scale
+    holoColor(A, vec(255)) #Color
+    holoParent(A, E1) 
+    holoClipEnabled(A,1,1) #Clip
+    holoClip(A,1,vec(0,0,0),vec(0,0,0),0) #Clip Position/Angle 
+    holoEntity(A):setSubMaterial(1,"titus/dangerhighvoltage") #Material
+    holoBodygroup(A,2,1)
+
+    A++
+    holoCreate(A)
+    holoModel(A, "plane") #Model
+    holoPos(A, E1:toWorld(vec(-169.25,20.5,119))) #Position
+    holoAng(A, E1:toWorld(ang(90,180,0))) #Angle
+    holoScale(A, vec(0.4,0.4,1)) #Scale
+    holoColor(A, vec(255)) #Color
+    holoParent(A, E1) 
+    holoClipEnabled(A,1,1) #Clip
+    holoClip(A,1,vec(0,0,0),vec(0,0,0),0) #Clip Position/Angle 
+    holoEntity(A):setSubMaterial(1,"titus/emrgfuelcutoffandenginestop") #Material
+    holoBodygroup(A,2,1)
+
+
+
+
+    A++
+    holoCreate(A)
+    holoModel(A, "models/meem/light/light01.mdl") #Model
+    holoPos(A, E1:toWorld(vec(-169,16.5,125))) #Position
+    holoAng(A, E1:toWorld(ang(90,180,0))) #Angle
+    holoScale(A, vec(1)) #Scale
+    holoColor(A, vec(255)) #Color
+    holoParent(A, E1) 
+    holoClipEnabled(A,1,1) #Clip
+    holoClip(A,1,vec(0,0,0),vec(0,0,0),0) #Clip Position/Angle 
+    holoEntity(A):setSubMaterial(1,"") #Material
+    holoBodygroup(A,1,0)
+
+    A++
+    holoCreate(A)
+    holoModel(A, "models/meem/light/light01.mdl") #Model
+    holoPos(A, E1:toWorld(vec(-169,18,125))) #Position
+    holoAng(A, E1:toWorld(ang(90,180,0))) #Angle
+    holoScale(A, vec(1)) #Scale
+    holoColor(A, vec(255)) #Color
+    holoParent(A, E1) 
+    holoClipEnabled(A,1,1) #Clip
+    holoClip(A,1,vec(0,0,0),vec(0,0,0),0) #Clip Position/Angle 
+    holoEntity(A):setSubMaterial(1,"") #Material
+    holoBodygroup(A,1,0)
+
+    A++
+    holoCreate(A)
+    holoModel(A, "models/meem/light/light01.mdl") #Model
+    holoPos(A, E1:toWorld(vec(-169,19.5,125))) #Position
+    holoAng(A, E1:toWorld(ang(90,180,0))) #Angle
+    holoScale(A, vec(1)) #Scale
+    holoColor(A, vec(255)) #Color
+    holoParent(A, E1) 
+    holoClipEnabled(A,1,1) #Clip
+    holoClip(A,1,vec(0,0,0),vec(0,0,0),0) #Clip Position/Angle 
+    holoEntity(A):setSubMaterial(1,"") #Material
+    holoBodygroup(A,1,0)
+
+    A++
+    holoCreate(A)
+    holoModel(A, "models/meem/light/light01.mdl") #Model
+    holoPos(A, E1:toWorld(vec(-169,21,125))) #Position
+    holoAng(A, E1:toWorld(ang(90,180,0))) #Angle
+    holoScale(A, vec(1)) #Scale
+    holoColor(A, vec(255)) #Color
+    holoParent(A, E1) 
+    holoClipEnabled(A,1,1) #Clip
+    holoClip(A,1,vec(0,0,0),vec(0,0,0),0) #Clip Position/Angle 
+    holoEntity(A):setSubMaterial(1,"") #Material
+    holoBodygroup(A,1,0)
+
+
+    A++
+    holoCreate(A)
+    holoModel(A, "models/meem/light/light01.mdl") #Model
+    holoPos(A, E1:toWorld(vec(-169,22.5,125))) #Position
+    holoAng(A, E1:toWorld(ang(90,180,0))) #Angle
+    holoScale(A, vec(1)) #Scale
+    holoColor(A, vec(255)) #Color
+    holoParent(A, E1) 
+    holoClipEnabled(A,1,1) #Clip
+    holoClip(A,1,vec(0,0,0),vec(0,0,0),0) #Clip Position/Angle 
+    holoEntity(A):setSubMaterial(1,"") #Material
+    holoBodygroup(A,1,0)
+
+    A++
+    holoCreate(A)
+    holoModel(A, "models/meem/light/light01.mdl") #Model
+    holoPos(A, E1:toWorld(vec(-169,24,125))) #Position
+    holoAng(A, E1:toWorld(ang(90,180,0))) #Angle
+    holoScale(A, vec(1)) #Scale
+    holoColor(A, vec(255)) #Color
+    holoParent(A, E1) 
+    holoClipEnabled(A,1,1) #Clip
+    holoClip(A,1,vec(0,0,0),vec(0,0,0),0) #Clip Position/Angle 
+    holoEntity(A):setSubMaterial(1,"") #Material
+    holoBodygroup(A,1,0)
+
+    A++
+    holoCreate(A)
+    holoModel(A, "models/meem/light/light01.mdl") #Model
+    holoPos(A, E1:toWorld(vec(-169,25.5,125))) #Position
+    holoAng(A, E1:toWorld(ang(90,180,0))) #Angle
+    holoScale(A, vec(1)) #Scale
+    holoColor(A, vec(255)) #Color
+    holoParent(A, E1) 
+    holoClipEnabled(A,1,1) #Clip
+    holoClip(A,1,vec(0,0,0),vec(0,0,0),0) #Clip Position/Angle 
+    holoEntity(A):setSubMaterial(1,"") #Material
+    holoBodygroup(A,1,0)
+
+
+}
+
