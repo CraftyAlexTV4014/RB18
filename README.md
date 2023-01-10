@@ -14,6 +14,8 @@ yeah.....
 
 
 
-request stuff @RB-18#1729
+request stuff/hand over photos/info for them 
+
+@RB-18#1729
 
 :)
