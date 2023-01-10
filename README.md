@@ -4,6 +4,8 @@ hi uh
 this is my github.
 
 
+NONE OF THESE DETAILS WILL WORK WITH REAL COMPANIES ACCURATELY. 
+I will label ones that will work accurately for 'em. :)
 
 
 yeah.....
