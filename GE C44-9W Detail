@@ -247,5 +247,32 @@ Base:setAlpha(255)
     holoBodygroup(A,3,0)
     holoBodygroup(A,4,2)
     holoBodygroup(A,5,2)
+    A++
+    holoCreate(A)
+    holoModel(A, "models/lazpack/detail/mu_3hose_left.mdl") #Model
+    holoPos(A, Base:toWorld(vec(33,-418.6,-11))) #Position
+    holoAng(A, Base:toWorld(ang(0,-90,0))) #Angle
+    holoScale(A, vec(1)) #Scale
+    holoColor(A, vec(255)) #Color
+    holoParent(A, Base) 
+    holoClipEnabled(A,1,1) #Clip
+    holoClip(A,1,vec(0,0,0),vec(0,0,0),0) #Clip Position/Angle 
+    holoEntity(A):setSubMaterial(1,"") #Material
+    holoBodygroup(A,1,0)
+    holoBodygroup(A,2,1)
+    A++
+    holoCreate(A)
+    holoModel(A, "models/lazpack/detail/mu_3hose_right.mdl") #Model
+    holoPos(A, Base:toWorld(vec(-33,-418.6,-11))) #Position
+    holoAng(A, Base:toWorld(ang(0,-90,0))) #Angle
+    holoScale(A, vec(1)) #Scale
+    holoColor(A, vec(255)) #Color
+    holoParent(A, Base) 
+    holoClipEnabled(A,1,1) #Clip
+    holoClip(A,1,vec(0,0,0),vec(0,0,0),0) #Clip Position/Angle 
+    holoEntity(A):setSubMaterial(1,"") #Material
+    holoBodygroup(A,1,0)
+    holoBodygroup(A,2,1)
+
 }
 
